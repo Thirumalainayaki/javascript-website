@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ppppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: wheat;
+    color: #fff;
+}
+#header{
+    width: 100;
+    height: 100vh;
+    background-image: url(background\ .png);
+    background-size: contain;
+    background-position: right;
+
+}
+.container{
+    padding: 10px 10%;
+}
+
+/* Create a top navigation bar with a black background color  */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Create a right-aligned (split) link inside the navigation bar */
+  .topnav a.split {
+    float: right;
+    background-color: #04AA6D;
+    color: white;
+  }
+  .header-text{
+    margin-top: 10%;
+    font-size: 30px;
+  }
+  .header-text h1{
+    font-size: 50px;
+    margin-top: 20px;
+  }
+  .header-text h1 span{
+    color: #ff004f;
+
+  }
+  /*------about-------*/
+  #about{
+    padding: 80px 0;
+    color: #ababab;
+  }
+  .row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .about-col-1{
+    flex-basis: 35%;
+  }
+  .about-col-1 img{
+    width: 100%;
+    border-radius: 15px;
+  }
+  .about-col-2{
+    flex-basis:  60%;
+  }
+  .sub-title{
+    font-size: 60px;
+    font-weight: 600;
+    color: #333;
+  }
+  .tab-titles{
+    display:flex;
+    margin: 20px 0 40px;
+  }
+  .tab-links{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+  }
+  .tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position:absolute;
+    left:0;
+    bottom: -8px;
+    transition: 0.5s;
+  }
+  .tab-links.active link::after{
+    width: 50px;
+  }
+  .tab-contents ul li{
+    list-style: none;
+    margin: 10px 0;
+  }
+  .tab-contents ul li span{
+    color: #ff004f;
+    font-size: 14px;
+  }
+
+
+  
+
+
+
+    
+  
+
+
